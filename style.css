@@ -1,0 +1,27 @@
+body {
+    background-color: #00203FFF;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5em;
+    font-family: helvetica;
+    font-size: x-large;
+    font-weight: 1000;
+    color: #ADDFD1FF
+}
+
+.form {
+    background-color: #ADDFD1FF;
+    width: 25em;
+    height: 6em;
+    margin: auto;
+    margin-top: 5em;
+    border-radius: 1em;
+    padding: 3em;
+}
+
+.login {
+    display: block;
+}
+
