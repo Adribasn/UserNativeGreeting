@@ -1,27 +1,18 @@
-body {
-    background-color: #00203FFF;
-}
 
-.title {
-    text-align: center;
-    margin-top: 5em;
-    font-family: helvetica;
-    font-size: x-large;
-    font-weight: 1000;
-    color: #ADDFD1FF
+body {
+    background-color: #ECECEC;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
 }
 
 .form {
-    background-color: #ADDFD1FF;
-    width: 25em;
-    height: 6em;
-    margin: auto;
-    margin-top: 5em;
-    border-radius: 1em;
-    padding: 3em;
-}
-
-.login {
-    display: block;
+    background-color: #fff;
+    height: 300px;
+    width: 300px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0,0,0,.2);
+    border-radius: .5rem;
 }
 
