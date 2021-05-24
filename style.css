@@ -40,10 +40,55 @@ body {
 .login:focus {
     border-color: #7b2cbf;
     background: #fff;
+    color: #7b2cbf; 
 }
 
 .submit {
     width: 100%;
     background: #7b2cbf;
     color: #fff;
+    border-radius: .25rem;
+    height: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    transition: .2s ease-in-out;
+    user-select: none;
+}
+
+.submit:hover {
+    background: #6724a1;
+}
+
+.submit:active {
+    transform: scale(0.98);
+}
+
+.greeting {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 5rem;
+    font-size: xx-large;
+    transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+}
+
+#greeting-text {
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+}
+
+.purple {
+    color: #6724a1;
+    background: none;
 }
